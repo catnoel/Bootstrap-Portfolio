@@ -5,7 +5,7 @@ body {
 
 }
 
-.header	{
+.container-fluid	{
 	background: #ffffff;
 	border: 0;
 	border-bottom: 2px solid #cccccc;
@@ -15,42 +15,23 @@ body {
 
 }
 
-h1 {
+/*.navbar-brand {
 	border: 1px #4aaaa5;
 	background: #4aaaa5;
 	padding: 15px 15px 15px 15px;
 	margin-left: 45px;
 	margin-top: 20px;
 	color: white;
-}
-
-.logo {
 	float: left;
 	font-size: 24px;
 	font-family: "Georgia"
-}
+}*/
 
-a {
-	text-decoration: none;
-}
-
-.nav{
-	float: right;
-	margin: auto;
-}
-
-li {
-	float: left;
-	padding: 40px 60px 10px 10px;
-
-}
-
-main {
-	padding-top: 250px;
-	padding-bottom: 500px;
+.main {
+	padding-top: 50px;
+	padding-bottom: 50px;
 	background-image: url(./../Images/Seamlessbackground.png);
 	font-size: 14px;
-	float: left;
 
 }
 
@@ -91,75 +72,6 @@ aside{
 	padding-bottom: 40px;
 	color: white;
 }
-
-
-@media screen and (max-width: 988px) {
-	body {
-		font-weight: lighter;
-	}
-
-	aside {
-		margin-top: 30px;
-		margin-left: 50px;
-		float: left;
-		width: 650px;		
-	}
-
-	#container {
-		margin-left: 50px;
-		}
-	main {
-		margin-top: -100px;
-	}
-}
-
-@media screen and (max-width: 768px) {
-
-	aside {
-		margin-top: 30px;
-		margin-left: 50px;
-		float: left;
-		width: 650px;		
-	}
-	#container {
-		margin-left: 50px;
-		}
-	main {
-		margin-top: -100px;
-	}
-
-	.header {
-		width: 768px;
-	}
-	
-}
-
-@media screen and (max-width: 640px) {
-
-	.nav {
-		float: left;
-		margin-left: 30px;
-		width: 640px;
-	}
-
-	li {
-		padding-right: 150px;
-	}
-
-
-	#container {
-		width: 500px;
-	}
-
-	aside {
-		margin-top: 20px;
-		width: 500px;
-	}
-
-	.footer {
-		margin-top: 40px;
-		width: 640px;
-	}
 
 }
 
