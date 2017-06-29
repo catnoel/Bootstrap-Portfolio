@@ -50,6 +50,7 @@ main {
 	padding-bottom: 500px;
 	background-image: url(./../Images/Seamlessbackground.png);
 	font-size: 14px;
+	float: left;
 
 }
 
@@ -63,7 +64,7 @@ aside{
 	border: 2px solid #dddddd;
 	width: 270px;
 	background: white;
-	float: left;
+	float: right;
 }
 
 #container {
@@ -91,9 +92,24 @@ aside{
 	color: white;
 }
 
-@media screen and (max-width: 980px) {
+
+@media screen and (max-width: 988px) {
 	body {
 		font-weight: lighter;
+	}
+
+	aside {
+		margin-top: 30px;
+		margin-left: 50px;
+		float: left;
+		width: 650px;		
+	}
+
+	#container {
+		margin-left: 50px;
+		}
+	main {
+		margin-top: -100px;
 	}
 }
 
